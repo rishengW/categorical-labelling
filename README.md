@@ -14,4 +14,10 @@ To capture deeper interactions that are difficult to model with simple direct ru
 
 ---
 
+# 3. Attention-based Refinement
+To improve the quality of the learned representation and emphasize useful information in the feature space. This part refines the combined feature representation before further learning, which helps the model produce a more expressive and discriminative representation.
 
+## 4. Feature Fusion
+
+### 4.1 Combination of Wide and Deep Information
+This part integrates the outputs of the wide component and the deep component to combine simple memorized patterns with complex generalized patterns.
