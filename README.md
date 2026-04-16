@@ -3,7 +3,7 @@ This network is a simple implication of the Wide and Deep Network, developed at 
 
 This model has four parts:
 # 1. Wide branch
-The wide branch is just a single linear layer applied directly to the categorical inputs after casting them to float. It converts the input, categorical IDs, into a single scalar per sample using a linear transformation, which helps capture memorization.
+The wide branch is just a single linear layer applied directly to the categorical inputs after casting them to float. It converts the input, categorical feature IDs, into a single scalar per sample using a linear transformation, which helps capture memorization and some simple linear effects.
 
 # 2. Deep branch with embeddings
 Feature Embedding creates one embedding table per categorical feature.
