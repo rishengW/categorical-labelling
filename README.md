@@ -7,7 +7,9 @@ The wide branch is just a single linear layer applied directly to the categorica
 
 # 2. Deep branch with embeddings
 Feature Embedding creates one embedding table per categorical feature.
+
 2.1. A feature-attention block
+
 2.2. A fusion and output head
 
 
